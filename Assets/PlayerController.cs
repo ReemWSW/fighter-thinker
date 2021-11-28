@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 1f;
+    public float speed = 1.5f;
 
     public float maxSpeed = 10f;
 
@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
 
     Animator animator;
+
+    public GameObject hitArea;
 
     // Start is called before the first frame update
     void Start()
@@ -45,10 +47,16 @@ public class PlayerController : MonoBehaviour
         {
             nextFireRate = Time.time + fireRate;
             anim.SetBool("Attack", true);
+            Attack();
         }
         else
         {
             anim.SetBool("Attack", false);
         }
+    }
+
+    public void Attack()
+    {
+        Instantiate(hitArea, transform.position, transform.rotation);
     }
 }
