@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public float speed = 1f;
+
+    public float maxSpeed = 10f;
+
     private Rigidbody2D rb2d;
 
     private Animator anim;
@@ -24,13 +28,13 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
         if (Input.GetAxis("Horizontal") < -0.1f)
         {
-            // transform.Translate(Vector2.right);
-            // transform.eulerAngles = new Vector2(0, 180);
+            transform.Translate(Vector2.right * speed *  Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 180);
         }
-        if (Input.GetAxis("Horizontal") > 0.1f)
+        else if (Input.GetAxis("Horizontal") > 0.1f)
         {
-            // transform.Translate(Vector2.right);
-            // transform.eulerAngles = new Vector2(0, 0);
+            transform.Translate(Vector2.right * speed *  Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 0);
         }
     }
 }
