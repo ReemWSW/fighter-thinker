@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -20,6 +21,10 @@ public class PlayerController : MonoBehaviour
 
     public GameObject hitArea;
 
+    public int healthBar = 50;
+
+    public Text healthText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +35,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        healthText.text = "HEALTH : " + healthBar;
         anim.SetBool("Grounded", true);
         anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
         if (Input.GetAxis("Horizontal") < -0.1f)
