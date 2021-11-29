@@ -29,7 +29,7 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         anim.SetBool("Grounded", true);
-        number = Random.Range(1, 100);
+        number = Random.Range(1, 1000);
         if (number == 5 && Time.time > nextFireRate)
         {
             nextFireRate = Time.time + fireRate;
@@ -55,7 +55,6 @@ public class EnemyController : MonoBehaviour
         if (other.gameObject.tag == "HitArea")
         {
             health -= damage;
-            Debug.Log("Enemy Some Thing Touth");
         }
     }
 }

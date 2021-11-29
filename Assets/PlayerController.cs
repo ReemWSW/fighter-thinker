@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
 
     public int healthBar = 50;
 
+    public int damage = 50;
+
     public Text healthText;
 
     // Start is called before the first frame update
@@ -59,10 +61,22 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Attack", false);
             hitArea.SetActive(false);
         }
+        if (healthBar <= 0)
+        {
+            Destroy (gameObject);
+        }
     }
 
     public void Attack()
     {
         Instantiate(hitArea, transform.position, transform.rotation);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "HitEnemy")
+        {
+            healthBar -= damage;
+        }
     }
 }
