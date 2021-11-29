@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 1.5f;
+    public float speed = 3f;
 
     public float maxSpeed = 10f;
 
@@ -15,9 +15,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb2d;
 
-    private Animator anim;
-
-    Animator animator;
+    private Animator animator;
 
     public GameObject hitArea;
 
@@ -29,15 +27,15 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb2d = gameObject.GetComponent<Rigidbody2D>();
-        anim = gameObject.GetComponent<Animator>();
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         healthText.text = "HEALTH : " + healthBar;
-        anim.SetBool("Grounded", true);
-        anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
+        animator.SetBool("Grounded", true);
+        animator.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
         if (Input.GetAxis("Horizontal") < -0.1f)
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
@@ -52,12 +50,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.J) && Time.time > nextFireRate)
         {
             nextFireRate = Time.time + fireRate;
-            anim.SetBool("Attack", true);
+            animator.SetBool("Attack", true);
+            hitArea.SetActive(true);
             Attack();
         }
         else
         {
-            anim.SetBool("Attack", false);
+            animator.SetBool("Attack", false);
+            hitArea.SetActive(false);
         }
     }
 
