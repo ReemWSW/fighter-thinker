@@ -305,11 +305,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &103391728
@@ -373,10 +369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!1 &180406600
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,10 +404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &180406602
 Rigidbody2D:
   serializedVersion: 4
@@ -510,11 +500,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &180406605
@@ -571,11 +557,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 1911671216}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!61 &226072377
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -716,11 +699,7 @@ SpriteRenderer:
   m_Size: {x: 4.83, y: 10.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &226072382
@@ -731,11 +710,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226072375}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 51.700005, y: -1.8799999, z: 0}
-=======
   m_LocalPosition: {x: 46.390003, y: -1.8799999, z: 0}
->>>>>>> mainmenu
   m_LocalScale: {x: 0.44302252, y: 0.44302252, z: 0.44302252}
   m_Children:
   - {fileID: 1911671221}
@@ -782,11 +757,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 1182936087}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!61 &245190149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -927,11 +899,7 @@ SpriteRenderer:
   m_Size: {x: 4.83, y: 10.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &245190154
@@ -1031,11 +999,7 @@ SpriteRenderer:
   m_Size: {x: 2.59, y: 7.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &265570012
@@ -1052,10 +1016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.15
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &265570013
 Rigidbody2D:
   serializedVersion: 4
@@ -1137,10 +1098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &391830673
 Rigidbody2D:
   serializedVersion: 4
@@ -1236,11 +1194,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &391830676
@@ -1297,11 +1251,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 391830671}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!61 &413614016
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1442,11 +1393,7 @@ SpriteRenderer:
   m_Size: {x: 4.83, y: 10.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &413614021
@@ -1504,11 +1451,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 1763282535}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!61 &420608138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1649,11 +1593,7 @@ SpriteRenderer:
   m_Size: {x: 4.83, y: 10.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &420608143
@@ -1705,10 +1645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &442872942
 Rigidbody2D:
   serializedVersion: 4
@@ -1804,11 +1741,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &442872945
@@ -1859,10 +1792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &607718695
 Rigidbody2D:
   serializedVersion: 4
@@ -1958,11 +1888,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &607718698
@@ -2019,11 +1945,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 442872940}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!61 &651884608
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2387,10 +2310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &1089811587
 Rigidbody2D:
   serializedVersion: 4
@@ -2486,11 +2406,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1089811590
@@ -2541,10 +2457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &1182936089
 Rigidbody2D:
   serializedVersion: 4
@@ -2640,11 +2553,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1182936092
@@ -2889,11 +2798,7 @@ SpriteRenderer:
   m_Size: {x: 4.83, y: 10.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1263360750
@@ -2929,11 +2834,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 103391725}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!1 &1339155931
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,11 +2955,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 607718693}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!61 &1482850473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3198,11 +3097,7 @@ SpriteRenderer:
   m_Size: {x: 4.83, y: 10.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1482850478
@@ -3254,10 +3149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &1577314964
 Rigidbody2D:
   serializedVersion: 4
@@ -3353,11 +3245,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1577314967
@@ -3474,10 +3362,7 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   currentPostX: 0
   target: {fileID: 1827560460}
-<<<<<<< HEAD
-=======
   camera: {fileID: 0}
->>>>>>> mainmenu
 --- !u!1 &1701525872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3627,11 +3512,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 1577314962}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!61 &1733287886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3772,11 +3654,7 @@ SpriteRenderer:
   m_Size: {x: 4.83, y: 10.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1733287891
@@ -3828,10 +3706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &1763282537
 Rigidbody2D:
   serializedVersion: 4
@@ -3927,11 +3802,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1763282540
@@ -3988,11 +3859,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 180406600}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!61 &1788289311
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4133,11 +4001,7 @@ SpriteRenderer:
   m_Size: {x: 4.83, y: 10.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1788289316
@@ -4148,11 +4012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788289309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 55.72, y: -1.67, z: 0}
-=======
   m_LocalPosition: {x: 50.41, y: -1.67, z: 0}
->>>>>>> mainmenu
   m_LocalScale: {x: 0.44302252, y: 0.44302252, z: 0.44302252}
   m_Children:
   - {fileID: 180406605}
@@ -4248,11 +4108,7 @@ SpriteRenderer:
   m_Size: {x: 7.09, y: 10.57}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1827560460
@@ -4359,11 +4215,8 @@ MonoBehaviour:
   maxSpeed: 10
   fireRate: 0.2
   nextFireRate: 0
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   animator: {fileID: 0}
->>>>>>> mainmenu
   hitArea: {fileID: 265570009}
   healthBar: 100
   damage: 20
@@ -4402,10 +4255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   SecondaryDestroy: 0.5
-<<<<<<< HEAD
-=======
   startTime: 0
->>>>>>> mainmenu
 --- !u!50 &1911671218
 Rigidbody2D:
   serializedVersion: 4
@@ -4501,11 +4351,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1911671221
@@ -4562,11 +4408,8 @@ MonoBehaviour:
   fireRate: 0.2
   nextFireRate: 0
   hitEnemy: {fileID: 1089811585}
-<<<<<<< HEAD
-=======
   rb2d: {fileID: 0}
   anim: {fileID: 0}
->>>>>>> mainmenu
 --- !u!61 &2135361918
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4707,11 +4550,7 @@ SpriteRenderer:
   m_Size: {x: 4.83, y: 10.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-<<<<<<< HEAD
-  m_WasSpriteAssigned: 1
-=======
   m_WasSpriteAssigned: 0
->>>>>>> mainmenu
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2135361923
