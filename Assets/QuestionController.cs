@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;  
 
 public class QuestionController : MonoBehaviour
 {
@@ -68,10 +68,11 @@ public class QuestionController : MonoBehaviour
             answers3Text.text = questionsList.questions[cnt].answer3;
             answers4Text.text = questionsList.questions[cnt].answer4;
             state = false;
+            cnt++;
         }
-        cnt++;
-        if(cnt == 5){
-            SceneManager.LoadScene("MainMenu");  
+        if (cnt == 5 && state)
+        {
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
